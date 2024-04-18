@@ -6,7 +6,7 @@ import { mongoose } from "mongoose";
 config();
 const app = express();
 // cross origin 
-app.use(cors({origin:'http://localhost:5173'}))
+app.use(cors({origin:'http://localhost:5173https://workoutbuddy-dqp5zoksi-swathis-projects-fbe7218c.vercel.app'}))
 //middleware
 app.use(express.json());
 
